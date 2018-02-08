@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/shushuogushi/jishu/test/ds-test">
+        <classes>
+            <class name="ds.test.junit.ManTest">
+                <methods>
+                    <include name="getName"/>
+                    <include name="getSex"/>
+                </methods>
+            </class>
+            <class name="ds.test.testng.GoodsTest">
+                <methods>
+                    <include name="testGetSalePrice"/>
+                    <include name="testGetStock"/>
+                    <include name="testGetSaleNumber"/>
+                    <include name="getOrderNo"/>
+                </methods>
+            </class>
+            <class name="ds.test.testng.StockTest">
+                <methods>
+                    <include name="testGetStock"/>
+                </methods>
+            </class>
+            <class name="ds.test.testng.StoreTest">
+                <methods>
+                    <include name="testShowNemGoodsNum"/>
+                    <include name="testGetGoodsNum"/>
+                    <include name="testGetStoreTypeFirst"/>
+                    <include name="testGetStoreTypeSecond"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
