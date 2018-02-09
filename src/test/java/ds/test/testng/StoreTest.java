@@ -24,14 +24,6 @@ public class StoreTest {
         System.out.println("-------StoreTest-------");
         store.getGoodsNum(goodsNum);
     }
-    /**
-     * 依赖测试
-     */
-    @Test(dependsOnMethods = {"testGetStoreTypeFirst","testGetStoreTypeSecond"})
-    public void testGetStoreTypeThird(){
-        System.out.println("-------StoreTest-------");
-        store.getStoreTypeThird();
-    }
     @Test
     public void testGetStoreTypeFirst() {
         System.out.println("-------StoreTest-------");
@@ -41,5 +33,13 @@ public class StoreTest {
     public void testGetStoreTypeSecond(){
         System.out.println("-------StoreTest-------");
         store.getStoreTypeSecond();
+    }
+    /**
+     * 依赖测试
+     */
+    @Test(dependsOnMethods = {"testGetStoreTypeFirst","testGetStoreTypeSecond"})
+    public void testGetStoreTypeThird(){
+        System.out.println("-------StoreTest-------");
+        store.getStoreTypeThird();
     }
 }

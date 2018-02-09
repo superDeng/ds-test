@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="81" started-at="2018-02-08T11:56:11Z" finished-at="2018-02-08T11:56:11Z">
+  <suite name="All Test Suite" duration-ms="58" started-at="2018-02-09T12:10:35Z" finished-at="2018-02-09T12:10:35Z">
     <groups>
       <group name="goods">
-        <method signature="GoodsTest.testGetSaleNumber()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="testGetSaleNumber" class="ds.test.testng.GoodsTest"/>
-        <method signature="GoodsTest.testGetSalePrice()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="testGetSalePrice" class="ds.test.testng.GoodsTest"/>
-        <method signature="GoodsTest.testGetStock()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="testGetStock" class="ds.test.testng.GoodsTest"/>
+        <method signature="GoodsTest.testGetSaleNumber()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="testGetSaleNumber" class="ds.test.testng.GoodsTest"/>
+        <method signature="GoodsTest.testGetSalePrice()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="testGetSalePrice" class="ds.test.testng.GoodsTest"/>
+        <method signature="GoodsTest.testGetStock()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="testGetStock" class="ds.test.testng.GoodsTest"/>
       </group> <!-- goods -->
       <group name="order">
-        <method signature="GoodsTest.getOrderNo()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="getOrderNo" class="ds.test.testng.GoodsTest"/>
+        <method signature="GoodsTest.getOrderNo()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="getOrderNo" class="ds.test.testng.GoodsTest"/>
       </group> <!-- order -->
     </groups>
-    <test name="D:/shushuogushi/jishu/test/ds-test" duration-ms="81" started-at="2018-02-08T11:56:11Z" finished-at="2018-02-08T11:56:11Z">
+    <test name="D:/shushuogushi/jishu/test/ds-test" duration-ms="58" started-at="2018-02-09T12:10:35Z" finished-at="2018-02-09T12:10:35Z">
       <class name="ds.test.testng.StoreTest">
-        <test-method status="PASS" signature="testShowNemGoodsNum()[pri:0, instance:ds.test.testng.StoreTest@3ac3fd8b]" name="testShowNemGoodsNum" duration-ms="1" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testShowNemGoodsNum()[pri:0, instance:ds.test.testng.StoreTest@edf4efb]" name="testShowNemGoodsNum" duration-ms="1" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -41,57 +41,52 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
 	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testShowNemGoodsNum -->
-        <test-method status="PASS" signature="testGetGoodsNum()[pri:0, instance:ds.test.testng.StoreTest@3ac3fd8b]" name="testGetGoodsNum" duration-ms="17" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetGoodsNum()[pri:0, instance:ds.test.testng.StoreTest@edf4efb]" name="testGetGoodsNum" duration-ms="6" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetGoodsNum -->
-        <test-method status="PASS" signature="testGetStoreTypeFirst()[pri:0, instance:ds.test.testng.StoreTest@3ac3fd8b]" name="testGetStoreTypeFirst" duration-ms="0" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetStoreTypeFirst()[pri:0, instance:ds.test.testng.StoreTest@edf4efb]" name="testGetStoreTypeFirst" duration-ms="1" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStoreTypeFirst -->
-        <test-method status="PASS" signature="testGetStoreTypeSecond()[pri:0, instance:ds.test.testng.StoreTest@3ac3fd8b]" name="testGetStoreTypeSecond" duration-ms="0" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetStoreTypeSecond()[pri:0, instance:ds.test.testng.StoreTest@edf4efb]" name="testGetStoreTypeSecond" duration-ms="1" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStoreTypeSecond -->
       </class> <!-- ds.test.testng.StoreTest -->
       <class name="ds.test.testng.GoodsTest">
-        <test-method status="PASS" signature="testGetSalePrice()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="testGetSalePrice" duration-ms="12" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetSalePrice()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="testGetSalePrice" duration-ms="12" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSalePrice -->
-        <test-method status="PASS" signature="testGetStock()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="testGetStock" duration-ms="0" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetStock()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="testGetStock" duration-ms="1" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStock -->
-        <test-method status="PASS" signature="testGetSaleNumber()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="testGetSaleNumber" duration-ms="0" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetSaleNumber()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="testGetSaleNumber" duration-ms="1" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSaleNumber -->
-        <test-method status="PASS" signature="getOrderNo()[pri:0, instance:ds.test.testng.GoodsTest@b684286]" name="getOrderNo" duration-ms="0" started-at="2018-02-08T19:56:11Z" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="getOrderNo()[pri:0, instance:ds.test.testng.GoodsTest@2acf57e3]" name="getOrderNo" duration-ms="0" started-at="2018-02-09T20:10:35Z" finished-at="2018-02-09T20:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOrderNo -->
       </class> <!-- ds.test.testng.GoodsTest -->
       <class name="ds.test.testng.StockTest">
-        <test-method status="PASS" signature="testGetStock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ds.test.testng.StockTest@34ce8af7]" name="testGetStock" duration-ms="1" started-at="2018-02-08T19:56:11Z" data-provider="paramData" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetStock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ds.test.testng.StockTest@2f7a2457]" name="testGetStock" duration-ms="0" started-at="2018-02-09T20:10:35Z" data-provider="paramData" finished-at="2018-02-09T20:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStock -->
-        <test-method status="PASS" signature="testGetStock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ds.test.testng.StockTest@34ce8af7]" name="testGetStock" duration-ms="1" started-at="2018-02-08T19:56:11Z" data-provider="paramData" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetStock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ds.test.testng.StockTest@2f7a2457]" name="testGetStock" duration-ms="0" started-at="2018-02-09T20:10:35Z" data-provider="paramData" finished-at="2018-02-09T20:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -133,7 +128,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStock -->
-        <test-method status="PASS" signature="testGetStock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ds.test.testng.StockTest@34ce8af7]" name="testGetStock" duration-ms="2" started-at="2018-02-08T19:56:11Z" data-provider="paramData" finished-at="2018-02-08T19:56:11Z">
+        <test-method status="PASS" signature="testGetStock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ds.test.testng.StockTest@2f7a2457]" name="testGetStock" duration-ms="0" started-at="2018-02-09T20:10:35Z" data-provider="paramData" finished-at="2018-02-09T20:10:35Z">
           <params>
             <param index="0">
               <value>

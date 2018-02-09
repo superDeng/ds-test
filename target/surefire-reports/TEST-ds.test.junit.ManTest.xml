@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.521" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ds.test.junit.ManTest" time="0.3" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3038040412710440904\surefirebooter7268067055309230098.jar C:\Users\Administrator\AppData\Local\Temp\surefire3038040412710440904 2018-02-09T20-10-24_222-jvmRun1 surefire8530113713085694413tmp surefire_1892806521406481577tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire8844988036488518532\surefirebooter2152683870232913976.jar C:\Users\Administrator\AppData\Local\Temp\surefire8844988036488518532 2018-02-09T20-10-24_222-jvmRun1 surefire1454534515934055116tmp surefire_0483881155745978510tmp"/>
     <property name="surefire.test.class.path" value="D:\shushuogushi\jishu\test\ds-test\target\test-classes;D:\shushuogushi\jishu\test\ds-test\target\classes;D:\sofeware\maven\test\repository\junit\junit\4.12\junit-4.12.jar;D:\sofeware\maven\test\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\sofeware\maven\test\repository\org\testng\testng\6.8\testng-6.8.jar;D:\sofeware\maven\test\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\sofeware\maven\test\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;D:\sofeware\maven\test\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;D:\sofeware\maven\test\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;D:\sofeware\maven\test\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Administrator"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3038040412710440904\surefirebooter7268067055309230098.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire8844988036488518532\surefirebooter2152683870232913976.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,15 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testGetSalePrice" classname="ds.test.testng.GoodsTest" time="0.01"/>
-  <testcase name="testGetStock" classname="ds.test.testng.GoodsTest" time="0"/>
-  <testcase name="testGetSaleNumber" classname="ds.test.testng.GoodsTest" time="0.011"/>
-  <testcase name="getOrderNo" classname="ds.test.testng.GoodsTest" time="0.002"/>
-  <testcase name="testGetStock" classname="ds.test.testng.StockTest" time="0.004"/>
-  <testcase name="testGetStock" classname="ds.test.testng.StockTest" time="0.001"/>
-  <testcase name="testGetStock" classname="ds.test.testng.StockTest" time="0.001"/>
-  <testcase name="testShowNemGoodsNum" classname="ds.test.testng.StoreTest" time="0"/>
-  <testcase name="testGetGoodsNum" classname="ds.test.testng.StoreTest" time="0.008"/>
-  <testcase name="testGetStoreTypeFirst" classname="ds.test.testng.StoreTest" time="0.016"/>
-  <testcase name="testGetStoreTypeSecond" classname="ds.test.testng.StoreTest" time="0.002"/>
+  <testcase name="getSex" classname="ds.test.junit.ManTest" time="0.011"/>
+  <testcase name="getName" classname="ds.test.junit.ManTest" time="0.009"/>
 </testsuite>

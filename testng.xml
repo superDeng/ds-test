@@ -28,6 +28,7 @@
                     <include name="testGetGoodsNum"/>
                     <include name="testGetStoreTypeFirst"/>
                     <include name="testGetStoreTypeSecond"/>
+                    <!--<include name="testGetStoreTypeThird"/>-->
                 </methods>
             </class>
         </classes>
