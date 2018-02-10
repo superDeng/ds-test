@@ -12,7 +12,7 @@ public class ManTest {
     @Before
     public void setUp() throws Exception {
         //初始化一些类的信息
-        man.setSex("女");
+        man.setSex("woman");
     }
     /*
      * 销毁类资源
