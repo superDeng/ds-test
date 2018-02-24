@@ -23,7 +23,7 @@ public class ManTest {
     /*
      * 测试方法体
      * */
-    @Test
+    @Test(timeout = 10)
     public void getName() {
         System.out.println("\n\n-------------- junit test ---------------");
         String manName=man.getName(1);

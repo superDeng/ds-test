@@ -15,6 +15,7 @@
                     <include name="testGetStock"/>
                     <include name="testGetSaleNumber"/>
                     <include name="getOrderNo"/>
+                    <include name="getAll"/>
                 </methods>
             </class>
             <class name="ds.test.testng.StockTest">
@@ -28,7 +29,7 @@
                     <include name="testGetGoodsNum"/>
                     <include name="testGetStoreTypeFirst"/>
                     <include name="testGetStoreTypeSecond"/>
-                    <!--<include name="testGetStoreTypeThird"/>-->
+                    <include name="testGetStoreTypeThird"/>
                 </methods>
             </class>
         </classes>
