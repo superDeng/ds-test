@@ -18,7 +18,7 @@ public class StoreTest {
     /**
      * 超时测试,10ms
      */
-    @Test(timeOut = 10)
+    @Test(timeOut = 1000)
     public void testGetGoodsNum() {
         int goodsNum=100;
         System.out.println("-------StoreTest-------");
